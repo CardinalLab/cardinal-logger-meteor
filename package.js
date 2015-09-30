@@ -1,6 +1,6 @@
 Package.describe({
   name: 'cardinallab:cardinal-logger',
-  version: '0.0.1',
+  version: '0.0.2',
   summary: 'Package to automatically send logs to CardinalLab',
   git: 'https://github.com/CardinalLab/cardinal-logger-meteor',
   documentation: 'README.md'
@@ -20,5 +20,5 @@ Package.onTest(function(api) {
   api.use('cardinallab:cardinal-logger');
   api.addFiles('cardinal-logger-tests.js');
   //api.export('Logger','client');
-  //api.export('Logger','server');
+  api.export('Logger','server');
 });

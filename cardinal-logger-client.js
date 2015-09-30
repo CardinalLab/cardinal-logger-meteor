@@ -1,5 +1,5 @@
-var logger = new Logger();
-function logger(){
+var Logger = new Logger();
+function Logger(){
   this.log=function(e){
     Meteor.call('cardinalLog',e);
   };

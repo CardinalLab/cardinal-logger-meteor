@@ -1,1 +1,2 @@
-#Meteor package which sends error logs to CardinalLab
+#cardinal-logger-meteor
+##Meteor package which sends error logs to CardinalLab
